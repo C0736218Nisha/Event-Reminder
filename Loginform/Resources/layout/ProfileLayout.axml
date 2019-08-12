@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -6,19 +6,15 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="#ffffff">
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/logo"
-        android:id="@+id/imageView1" 
-     />
+   
     <TextView
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:id="@+id/textregister"
         android:layout_width="250dp"
         android:layout_height="25dp"
         android:textColor="#ff5c5c"
-        android:text="Sign Up!"
+        android:text="Update Profile"
         android:textSize="20dp"
         />
 
@@ -28,13 +24,14 @@
         android:layout_height="50dp"
         android:id="@+id/usernameID"
         android:hint="New Username"
-        android:layout_marginTop="10dp"
+        
         />
 
     <EditText
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:id="@+id/EmailID"
+        android:enabled="false"
         android:hint="Enter Email"
         android:layout_margin="3dp"
         />
@@ -48,22 +45,12 @@
         />
 
     <Button
-        android:layout_marginTop="20dp"
         android:id="@+id/submit"
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:textColor="#000000"
         android:background="#ff5c5c"
         android:text="SUBMIT" />
-     <TextView
-            android:gravity="center"
-            android:id="@+id/newuser"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#8c8c8c"
-            android:text="Already have account?Sign in."
-            android:textSize="14dp"
-            android:layout_marginTop="20dp"
-        />
+    
 
 </LinearLayout>
