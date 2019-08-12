@@ -64,6 +64,13 @@
     <Compile Include="welcomescreen.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyEventsFragment.cs" />
+    <Compile Include="ReceivedEventsFragment.cs" />
+    <Compile Include="CreateEventFragment.cs" />
+    <Compile Include="DatePickerFragment.cs" />
+    <Compile Include="MyCustomAdapter.cs" />
+    <Compile Include="EventObject.cs" />
+    <Compile Include="ProfileFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -95,6 +102,13 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
+    <AndroidResource Include="Resources\layout\MyEventsLayout.axml" />
+    <AndroidResource Include="Resources\layout\ReceivedEventsLayout.axml" />
+    <AndroidResource Include="Resources\layout\CreateEventLayout.axml" />
+    <AndroidResource Include="Resources\layout\list_item.axml" />
+    <AndroidResource Include="Resources\layout\ReceivedEventItemLayout.axml" />
+    <AndroidResource Include="Resources\menu\menu.axml" />
+    <AndroidResource Include="Resources\layout\ProfileLayout.axml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
@@ -104,6 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\Images\" />
+    <Folder Include="Resources\menu\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\welcomescreen.axml">
